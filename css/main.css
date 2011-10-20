@@ -1,0 +1,382 @@
+body{
+	background:#fff;
+	font-family:sans-serif;
+}
+
+a,#page-title{
+	color:#C00;
+	text-decoration:none;
+}
+
+article {
+	font-size:1em;
+	margin:10px 0;
+	line-height:18px;
+}
+
+h1 {font-size: 1.4em;}
+h2 {font-size: 1.2em;}
+
+#container{
+	width:960px;
+	overflow:hidden;
+	margin:0 auto;
+}
+
+
+@font-face {
+    font-family: 'nevisBold';
+    src: url('fonts/nevis-webfont.eot');
+    src: url('fonts/nevis-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/nevis-webfont.woff') format('woff'),
+         url('fonts/nevis-webfont.ttf') format('truetype'),
+         url('fonts/nevis-webfont.svg#nevisBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.headlines{
+	font-family:'nevisBold', Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+}
+
+/* HEADER SECTION */
+
+#header{
+	width:100%;
+}
+
+#logo {
+	display: block;	
+	background: url(../images/occupy_philly_logo.png) no-repeat;
+	height: 0px;
+	width: 960px;
+	padding-top: 100px;
+	overflow: hidden;
+	clear: both;
+}
+
+#header strong{
+	font-size:1.5em;
+	margin:5px auto 15px;
+	font-weight:100;
+	letter-spacing:-1px;
+	display:table;
+	line-height:24px;
+}
+
+
+#header .form{
+	float:right;
+	margin:15px 0;
+}
+
+#header .form .submit{
+	border:none;
+	background:#fff;
+}
+
+#header .form .field{
+	padding:3px;
+	border:1px solid #ccc;
+}
+
+#header nav{
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	overflow:auto;
+	padding:0 10px;
+}
+
+#header nav ul{
+	margin:0 auto;
+	display:table;
+}
+
+#header nav li{
+	list-style:none;
+	float:left;
+	font-size:1em;
+	margin:5px;
+	line-height:24px;
+}
+
+#header nav li a{
+	color:#000;
+	text-decoration:none;
+	padding:0 4px;
+}
+
+#header nav li a:hover{
+	background:#ed1c24;
+	color:#fff;
+}
+
+
+.flex-container{
+	width:960px;
+	float:left;
+	display:block;
+	margin:10px 0;
+}
+
+.flex-caption{
+	background:#fff;
+	width:960px;
+}
+
+.flex-caption h2{
+    background:#fff;
+    display:inline-block;
+    margin-bottom: 0;
+    padding:10px;
+	font-size:3em;
+	letter-spacing:-2px;
+	line-height:48px;
+	width:100%;
+}
+
+.flex-caption h2 {
+	color:#000;
+}
+
+
+.flex-caption p {
+    background:#ed1c24;
+    color:#fff;
+    display: inline-block;
+    padding: 0.5em 1em;
+	font-weight:bold;
+	margin:0 0 10px;
+}
+
+
+.flex-control-nav, .flexslider .slides, .flex-direction-nav {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-direction-nav li a {
+    background: url("images/slider_nav.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: block;
+    height: 48px;
+    margin: -13px 0 0;
+    position: absolute;
+    text-indent: -9999px;
+    top: 50%;
+    width: 48px;
+}
+
+
+/*
+Main Section
+*/
+
+#content{
+	width:710px;
+	float:left;
+	margin-right:20px;
+}
+
+#content .sectionHeader{
+	font-size:1.4em;
+	text-transform:uppercase;
+	background:url(images/ico_bullet.gif) left no-repeat;
+	padding:4px 0 5px 22px;
+	border-bottom:1px solid #ccc;
+}
+
+#content header > h1{
+	font-size:2.2em;
+	letter-spacing:-1px;
+	line-height:36px;
+	margin-top:10px;
+	margin-bottom: 18px;
+	padding-right: 72px;
+}
+
+#content header > h1 a {
+	color: #888;
+}
+
+#content header > span{
+	font-size:1em;
+	font-weight:bold;
+}
+
+#content header span strong{
+	font-weight:bold;
+}
+
+#content article{
+	padding:10px 20px;
+	border-bottom:1px solid #ccc;
+}
+
+#content article .node-readmore{
+	font-weight:bold;
+}
+
+
+#content article footer a{
+	float:right;
+	font-size:1.4em;
+	font-weight:bold;
+}
+
+#content menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.view-content .item-list ul, .view-content .item-list ul > li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.view-content .item-list ul > li {
+	margin-bottom: 1em;
+}
+
+
+/*
+SIDEBAR
+*/
+
+.sidebar{
+	width:220px;
+	float:left;
+	margin-right:10px;
+}
+
+.sidebar .button{
+	display: block;
+	color: #fff;
+	font-size:3.2em;
+	list-style:none;
+	background: #008ecc; /* Old browsers */
+	background: -moz-linear-gradient(top, #008ecc 48%, #0052a3 51%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(48%,#008ecc), color-stop(51%,#0052a3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #008ecc 48%,#0052a3 51%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #008ecc 48%,#0052a3 51%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #008ecc 48%,#0052a3 51%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008ecc', endColorstr='#0052a3',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #008ecc 48%,#0052a3 51%); /* W3C */
+	letter-spacing:-2px;
+	text-align:center;
+	margin:10px 0;
+	padding:5px 0;
+	cursor: pointer;
+}
+
+.sidebar .donate{
+	background: #ff3648; /* Old browsers */
+	background: -moz-linear-gradient(top, #ff3648 48%, #db0000 51%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(48%,#ff3648), color-stop(51%,#db0000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ff3648 48%,#db0000 51%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ff3648 48%,#db0000 51%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #ff3648 48%,#db0000 51%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3648', endColorstr='#db0000',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #ff3648 48%,#db0000 51%); /* W3C */
+}
+
+.sidebar .headlines { font-weight: normal; }
+
+.sidebar ul.follow{
+	list-style:none;
+	text-align:center;
+	margin:8px auto 0;
+	width:170px;
+}
+
+.sidebar .follow li{
+	float:left;
+	margin:0 4px;
+}
+
+/*
+FOOTER
+*/
+
+#footer{
+	width:940px;
+	float:left;
+	border-top:1px solid #ccc;
+	margin-top:15px;
+	padding:10px;
+}
+
+#footer p{
+	font-size:1em;
+	margin:0;
+	line-height:12px;
+}
+
+#footer .sidebar{
+	float:left;
+	width:400px;
+	margin-right:10px;
+	display:block;
+}
+
+#footer-sidebar{
+	margin:0 auto;
+}
+
+#footer .widget-container {
+    float: left;
+	margin:10px;
+	width:100px;
+}
+
+.widget_nav_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	font-size:1.2em;
+}
+
+
+#footer li{
+	margin:2px 0 0;
+}
+
+#footer li a{
+	color:#333;
+	font-weight:bold;
+}
+
+#footer-logo {
+	display: block;
+	height: 0;
+	width: 390px;
+	padding-top: 40px;
+	overflow: hidden;
+	background: url(../images/logo_occupy_sml.gif) no-repeat;
+}
+
+#footer-sidebar p {
+	font-size: 0.85em;
+}
+
+.region-footer h2 {
+	display: none;
+}
+
+.region-footer ul {
+	list-style: none !important;
+	margin: 0;
+	padding :0;
+	font-size: .85em;
+	font-family: sans-serif;
+}
+
+.region-footer li {
+	float: left;
+	list-style: none !important;
+	width: 100px;
+}

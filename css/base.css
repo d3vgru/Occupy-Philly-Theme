@@ -1,0 +1,38 @@
+/* HTML5 Boilerplate base.css. */
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 81.3%; /* Set the base font-size to 13px. */
+}
+
+/* Restrict the width to 960px using the #page wrapper and center the page. */
+#page {
+  margin: 0 auto;
+  width: 100%;
+  min-width: 960px;
+  max-width: 1260px;
+}
+
+/* Make unknown elements block level */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* Display our menu_bar menu on one line */
+.region-menu-bar ul.menu li {
+  display: inline;
+  float: left;
+  list-style: none;
+  list-style-image: none;
+}

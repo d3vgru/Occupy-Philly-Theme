@@ -1,0 +1,46 @@
+
+name        = Occupy Philly
+description = A simple HTML5 starter theme for Drupal. This theme uses a 24 column adaptive fluid grid and includes media queries and stylesheets for mobile devices.
+core        = 7.x
+engine      = phptemplate
+screenshot  = screenshot.png
+
+stylesheets[all][] = css/base.css
+stylesheets[all][] = css/main.css
+stylesheets[all][] = css/flexslider.css
+stylesheets[only screen and (min-device-width : 320px) and (max-device-width : 480px)][] = css/smartphone.css
+stylesheets[only screen and (max-width : 320px)][] = css/smartphone-portrait.css
+stylesheets[only screen and (min-width : 321px)][] = css/smartphone-landscape.css
+stylesheets[only screen and (min-device-width : 768px) and (max-device-width : 1024px)][] = css/ipad.css
+stylesheets[only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)][] = css/ipad-portrait.css
+stylesheets[only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)][] = css/ipad-landscape.css
+stylesheets[only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5)][] = css/iphone.css
+stylesheets[only screen and (min-width : 1824px)][] = css/widescreen.css
+
+scripts[] = js/jquery.flexslider.js
+scripts[] = js/application.js
+
+regions[sidebar_second] = Sidebar second
+regions[content]        = Main Content
+regions[header]         = Header
+regions[menu_bar]       = Menu Bar
+regions[highlighted]    = Highlighted
+regions[footer]         = Footer
+regions[help]           = Help
+regions[page_top]       = Page top
+regions[page_bottom]    = Page bottom
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+
+; Information added by drupal.org packaging script on 2011-03-27
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "html5_boilerplate"
+datestamp = "1301184506"
+

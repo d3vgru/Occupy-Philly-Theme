@@ -101,6 +101,9 @@
 			<a href="" id="footer-logo">Occupy Philly</a>
 			<p>&copy; 2011 Occupy Philly&mdash;Please feel free to distribute any of the original content on this site across the internet.</p>
 		</div>	
+		<?php print render($page['menu_bar']); ?>
+	</div>
+	<div>
 		<?php print $footer; ?>
 	</div>
 </footer>

@@ -1,6 +1,6 @@
 
 name        = Occupy Philly
-description = A simple HTML5 starter theme for Drupal. This theme uses a 24 column adaptive fluid grid and includes media queries and stylesheets for mobile devices.
+description = A simple HTML5 starter theme for Drupal. This theme was designed by Larry West and coded by Larry West and Jon Laing.
 core        = 7.x
 engine      = phptemplate
 screenshot  = screenshot.png
